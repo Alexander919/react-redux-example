@@ -14,4 +14,4 @@ const FavoriteItem = props => {
   );
 };
 
-export default FavoriteItem;
+export default React.memo(FavoriteItem);
