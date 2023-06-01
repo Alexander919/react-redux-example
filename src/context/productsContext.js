@@ -34,14 +34,6 @@ export const ProductsContext = React.createContext({
     toggleFav: () => {}
 });
 
-const productReducer = (state = initialState, action) => {
-    switch (action.type) {
-        case TOGGLE_FAV:
-        default:
-            return state;
-    }
-};
-
 export default props => {
     const [products, setProducts] = useState(PRODUCTS);
 
